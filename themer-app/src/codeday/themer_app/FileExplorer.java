@@ -16,7 +16,6 @@ import android.content.*;
 public class FileExplorer extends Activity {
 
 	protected void onCreate(Bundle savedInstanceState) {
-		System.getSecurityManager().checkExec("ls");
 		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_file_explorer);
